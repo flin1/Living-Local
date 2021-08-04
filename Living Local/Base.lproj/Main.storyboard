@@ -33,10 +33,13 @@
                         <color key="backgroundColor" red="0.69411764705882351" green="0.84705882352941175" blue="0.71764705882352942" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Living Local " id="vgf-sC-0vs"/>
+                    <connections>
+                        <segue destination="JZP-nZ-0Qc" kind="custom" id="vVy-3Q-dXM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="928.98550724637687" y="77.678571428571431"/>
+            <point key="canvasLocation" x="1072" y="78"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="1Sm-Sp-bpn">
@@ -116,6 +119,10 @@
                         <viewLayoutGuide key="safeArea" id="0RT-y2-T3O"/>
                         <color key="backgroundColor" red="0.69411764705882351" green="0.84705882352941175" blue="0.71764705882352942" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <connections>
+                        <segue destination="N9n-tu-VeQ" kind="custom" id="Kew-87-nyo"/>
+                        <segue destination="LPz-LV-KgM" kind="custom" id="j9C-Ji-cjX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BPV-qn-hoc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
