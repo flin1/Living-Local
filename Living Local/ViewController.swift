@@ -14,6 +14,12 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    
+    @IBAction func isGoingToSearch(_ sender: Any) {
+       /* performSegue(withIdentifier: "toSearchSegue" , sender: nil)*/
+    }
+    
+    
 
 }
 
