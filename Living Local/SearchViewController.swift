@@ -9,12 +9,18 @@ import UIKit
 
 class SearchViewController: UIViewController {
 
+    @IBOutlet weak var searchBar: UISearchBar!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-    
+    func searchPlaces(){
+        let search = searchBar.text!
+        
+        //for loop compare values to search input
+    }
 
     /*
     // MARK: - Navigation

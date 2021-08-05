@@ -11,11 +11,14 @@
 		7A1E409126BB8E9D002F3C3C /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1E409026BB8E9D002F3C3C /* MapViewController.swift */; };
 		7A1E409326BB8EED002F3C3C /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1E409226BB8EED002F3C3C /* ScheduleViewController.swift */; };
 		7A1E409526BB8F0F002F3C3C /* NewScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1E409426BB8F0F002F3C3C /* NewScheduleViewController.swift */; };
+		7A1E409726BBAAE1002F3C3C /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1E409626BBAAE1002F3C3C /* SwiftyJSON.swift */; };
+		7A1E409926BC7BD0002F3C3C /* AppIcons in Resources */ = {isa = PBXBuildFile; fileRef = 7A1E409826BC7BCF002F3C3C /* AppIcons */; };
+		7A1E409B26BC7BEF002F3C3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A1E409A26BC7BEF002F3C3C /* Assets.xcassets */; };
+		7A1E409D26BC7C77002F3C3C /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A1E409C26BC7C77002F3C3C /* Logo.png */; };
 		7A2DAEBB26B9E01500F6EFB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2DAEBA26B9E01500F6EFB6 /* AppDelegate.swift */; };
 		7A2DAEBD26B9E01500F6EFB6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2DAEBC26B9E01500F6EFB6 /* SceneDelegate.swift */; };
 		7A2DAEBF26B9E01500F6EFB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2DAEBE26B9E01500F6EFB6 /* ViewController.swift */; };
 		7A2DAEC226B9E01500F6EFB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A2DAEC026B9E01500F6EFB6 /* Main.storyboard */; };
-		7A2DAEC426B9E01600F6EFB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A2DAEC326B9E01600F6EFB6 /* Assets.xcassets */; };
 		7A2DAEC726B9E01600F6EFB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A2DAEC526B9E01600F6EFB6 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -24,12 +27,15 @@
 		7A1E409026BB8E9D002F3C3C /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		7A1E409226BB8EED002F3C3C /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
 		7A1E409426BB8F0F002F3C3C /* NewScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewScheduleViewController.swift; sourceTree = "<group>"; };
+		7A1E409626BBAAE1002F3C3C /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = "../../../Downloads/SwiftyJSON-master/Source/SwiftyJSON/SwiftyJSON.swift"; sourceTree = "<group>"; };
+		7A1E409826BC7BCF002F3C3C /* AppIcons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AppIcons; path = ../../../Downloads/AppIcons; sourceTree = "<group>"; };
+		7A1E409A26BC7BEF002F3C3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../Downloads/AppIcons/Assets.xcassets; sourceTree = "<group>"; };
+		7A1E409C26BC7C77002F3C3C /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
 		7A2DAEB726B9E01500F6EFB6 /* Living Local.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Living Local.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A2DAEBA26B9E01500F6EFB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A2DAEBC26B9E01500F6EFB6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7A2DAEBE26B9E01500F6EFB6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7A2DAEC126B9E01500F6EFB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7A2DAEC326B9E01600F6EFB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A2DAEC626B9E01600F6EFB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A2DAEC826B9E01600F6EFB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,9 +78,12 @@
 				7A1E409026BB8E9D002F3C3C /* MapViewController.swift */,
 				7A1E409226BB8EED002F3C3C /* ScheduleViewController.swift */,
 				7A1E409426BB8F0F002F3C3C /* NewScheduleViewController.swift */,
-				7A2DAEC326B9E01600F6EFB6 /* Assets.xcassets */,
+				7A1E409C26BC7C77002F3C3C /* Logo.png */,
+				7A1E409A26BC7BEF002F3C3C /* Assets.xcassets */,
+				7A1E409826BC7BCF002F3C3C /* AppIcons */,
 				7A2DAEC526B9E01600F6EFB6 /* LaunchScreen.storyboard */,
 				7A2DAEC826B9E01600F6EFB6 /* Info.plist */,
+				7A1E409626BBAAE1002F3C3C /* SwiftyJSON.swift */,
 			);
 			path = "Living Local";
 			sourceTree = "<group>";
@@ -137,8 +146,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A2DAEC726B9E01600F6EFB6 /* LaunchScreen.storyboard in Resources */,
-				7A2DAEC426B9E01600F6EFB6 /* Assets.xcassets in Resources */,
+				7A1E409926BC7BD0002F3C3C /* AppIcons in Resources */,
+				7A1E409D26BC7C77002F3C3C /* Logo.png in Resources */,
 				7A2DAEC226B9E01500F6EFB6 /* Main.storyboard in Resources */,
+				7A1E409B26BC7BEF002F3C3C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +163,7 @@
 				7A1E409526BB8F0F002F3C3C /* NewScheduleViewController.swift in Sources */,
 				7A1E408F26BB8E90002F3C3C /* SearchViewController.swift in Sources */,
 				7A1E409126BB8E9D002F3C3C /* MapViewController.swift in Sources */,
+				7A1E409726BBAAE1002F3C3C /* SwiftyJSON.swift in Sources */,
 				7A2DAEBF26B9E01500F6EFB6 /* ViewController.swift in Sources */,
 				7A2DAEBB26B9E01500F6EFB6 /* AppDelegate.swift in Sources */,
 				7A1E409326BB8EED002F3C3C /* ScheduleViewController.swift in Sources */,
