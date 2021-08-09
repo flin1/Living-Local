@@ -32,7 +32,7 @@ class CustomCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-        parentView.layer.cornerRadius = 15
+        //parentView.layer.cornerRadius = 15
         
     }
 

@@ -25,6 +25,7 @@
 		7A2DAEBF26B9E01500F6EFB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2DAEBE26B9E01500F6EFB6 /* ViewController.swift */; };
 		7A2DAEC226B9E01500F6EFB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A2DAEC026B9E01500F6EFB6 /* Main.storyboard */; };
 		7A2DAEC726B9E01600F6EFB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A2DAEC526B9E01600F6EFB6 /* LaunchScreen.storyboard */; };
+		7A98279426C1D9EC009E7007 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A98279326C1D9EC009E7007 /* Restaurant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		7A2DAEC126B9E01500F6EFB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7A2DAEC626B9E01600F6EFB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A2DAEC826B9E01600F6EFB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A98279326C1D9EC009E7007 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				7A2DAEBC26B9E01500F6EFB6 /* SceneDelegate.swift */,
 				7A2DAEBE26B9E01500F6EFB6 /* ViewController.swift */,
 				7A2DAEC026B9E01500F6EFB6 /* Main.storyboard */,
+				7A98279326C1D9EC009E7007 /* Restaurant.swift */,
 				7A1E40C626BDCCC7002F3C3C /* Place.swift */,
 				7A1E40C826BDCD91002F3C3C /* FetchBusinessData.swift */,
 				7A1E408E26BB8E90002F3C3C /* SearchViewController.swift */,
@@ -176,6 +179,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A98279426C1D9EC009E7007 /* Restaurant.swift in Sources */,
 				7A1E40C926BDCD91002F3C3C /* FetchBusinessData.swift in Sources */,
 				7A1E409526BB8F0F002F3C3C /* NewScheduleViewController.swift in Sources */,
 				7A1E408F26BB8E90002F3C3C /* SearchViewController.swift in Sources */,
